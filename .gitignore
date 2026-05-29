@@ -1,0 +1,117 @@
+####################################
+# NODE / EXPRESS / BACKEND
+####################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+**/package-lock.json
+react/
+nodejest/
+reactapp/package-lock.json
+nodeapp/package-lock.json
+
+####################################
+# ENVIRONMENT VARIABLES
+####################################
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+####################################
+# UPLOADS / STORAGE
+####################################
+nodeapp/uploads/
+
+####################################
+# TESTING
+####################################
+
+# Added specific test folders to ignore list
+nodeapp/tests/
+reactapp/src/tests/
+
+coverage/
+.nyc_output/
+
+####################################
+# BUILD OUTPUTS
+####################################
+dist/
+coverage/
+
+####################################
+# REACT / FRONTEND
+####################################
+# React build
+build/
+dist/
+
+# React env files
+frontend/.env
+client/.env
+
+
+####################################
+# DATABASE
+####################################
+data/
+*.sqlite
+*.sqlite3
+
+####################################
+# OS FILES
+####################################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+####################################
+# EDITORS / IDEs
+####################################
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+####################################
+# CACHE / TEMP
+####################################
+.cache/
+.tmp/
+.temp/
+
+####################################
+# TYPESCRIPT
+####################################
+*.tsbuildinfo
+
+####################################
+# ESLINT / PRETTIER
+####################################
+.eslintcache
+
+####################################
+# DOCKER
+####################################
+docker-data/
+*.pid
+
+####################################
+# MISC
+####################################
+*.tgz
+*.bak
+*.old
+
+####################################
+# OPTIONAL: KEEP EMPTY FOLDERS
+####################################
+!.gitkeep

@@ -14,7 +14,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: process.env.FRONTEND_URL,
+    origin: "https://react-loan-9z8st0tu4-suryas-projects-bc06efa8.vercel.app",
     credentials: true
 }));
 app.use(cookieParser());

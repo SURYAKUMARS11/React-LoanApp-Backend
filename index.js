@@ -13,20 +13,8 @@ const chatRoutes = require('./routers/chatRoutes');
 const app = express();
 
 // Middleware
-const allowedOrigins = [
-    process.env.FRONTEND_URL,
-    'http://localhost:8081',
-    'https://react-loan-9z8st0tu4-suryas-projects-bc06efa8.vercel.app'
-];
-
 app.use(cors({
-    origin: function (origin, callback) {
-        if (!origin || allowedOrigins.includes(origin)) {
-            callback(null, true);
-        } else {
-            callback(new Error('Not allowed by CORS'));
-        }
-    },
+    origin: "https://react-loan-app-three.vercel.app",
     credentials: true
 }));
 app.use(cookieParser());
